@@ -1,0 +1,28 @@
+
+ä
+java:S1598"ÇThis file "RTTicketingSystem.java" should be located in "real\time\event\ticketing\system\lk" directory, not in "H:\IIT FORMS\2nd year\1st sem\OOP\Prog\CW_TEST1\src\real\time\event\ticketing\system".(ë’üo8û…™å±2
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©»µÆ8¿Â¦ä±2J$d2d22c01-19c5-42e3-8872-5b8f216b9783
+
+java:S1854"ERemove this useless assignment to local variable "maxTicketCapacity".(° é øÿÿÿÿ8ª‡´ä±2J$17a0e71b-57f1-4446-af9f-c9b8fab0e62d
+‹
+java:S1854"IRemove this useless assignment to local variable "customerRetrievalRate".(°•8šñ·ä±2J$c54ae8a5-204d-4188-be61-3d348d8e8152
+ˆ
+java:S1854"ERemove this useless assignment to local variable "ticketReleaseRate".(ÅŒú8÷Ë»ä±2J$cd5614ff-18e4-454f-8696-d4e60bbf2c00
+ƒ
+java:S1854"@Remove this useless assignment to local variable "totalTickets".(®º÷8¨›¾ä±2J$3656d252-8336-480c-b930-dc23c2725e38
+r	java:S106"+Replace this use of System.out by a logger.(ÖË¥«üÿÿÿÿ8†¢ä±2J$11131784-8727-4efa-962b-03d242a99742
+l	java:S106"+Replace this use of System.out by a logger.(ê¥o8‹¢ä±2J$383ba85a-175a-4708-8108-1bd1451ea7c4
+t
+java:S1481"1Remove this unused "totalTickets" local variable.(®º÷8Ä¢ä±2J$a0080963-368f-4a34-a27d-a3add560af97
+r	java:S106"+Replace this use of System.out by a logger.(ÖºÜşÿÿÿÿ8¹‡´ä±2J$67fa1180-6b15-4f0e-adbb-0f49d999820f
+y
+java:S1481"6Remove this unused "ticketReleaseRate" local variable.(ÅŒú8ÙÍ·ä±2J$123726db-ac06-473b-bba5-d5ab7c02bd2e
+r	java:S106"+Replace this use of System.out by a logger.(ŒÑÍúÿÿÿÿ8°ñ·ä±2J$945f01c4-9074-427a-a311-5004ddaa1ff6
+|
+java:S1481":Remove this unused "customerRetrievalRate" local variable.(°•8¶Š»ä±2J$7c7af301-1797-4ed0-82a0-4460fc3abc8e
+m	java:S106"+Replace this use of System.out by a logger.(“¥ƒ8‰Ì»ä±2J$ed930e35-3e52-40b8-a78a-2b70f15d7e29
+~
+java:S1481"6Remove this unused "maxTicketCapacity" local variable.(° é øÿÿÿÿ8÷Ô¾ä±2J$8e6d50a4-acea-43b2-b411-bbf6d30a42cb
+o
+java:S1172",Remove this unused method parameter "input".(©»µÆ8‚Ã¦ä±2J$199e008e-bdfa-4403-a4b6-9f8cd7c330db

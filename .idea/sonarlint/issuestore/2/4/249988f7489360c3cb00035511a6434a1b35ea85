@@ -1,0 +1,11 @@
+
+s
+java:S1068"0Remove this unused "totalTickets" private field.(öÍ·²8ä¬ªæ±2J$deac42ed-2635-4437-aa65-0eb7217a532d
+|
+java:S1068"4Remove this unused "availableTickets" private field.(Âûîôÿÿÿÿÿ8é¬ªæ±2J$8d963f8f-9e8a-4e0a-9a47-2e83a4661e6b
+W
+java:S1068"5Remove this unused "ticketReleaseRate" private field.(¼Â¯Æÿÿÿÿÿ8šˆ«æ±2
+|
+java:S1068"9Remove this unused "customerRetrievalRate" private field.(šò€8ê¬ªæ±2J$248991a0-e154-4c5b-b1fa-8be17ccebbf6
+x
+java:S1068"5Remove this unused "maxTicketCapacity" private field.(”õÓƒ8ì¬ªæ±2J$fb398669-9e82-432e-8b2e-d0e9b1ef3bc9

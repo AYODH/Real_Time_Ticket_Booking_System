@@ -1,0 +1,28 @@
+
+7
+java:S1220""Move this file to a named package.8½š›å±2
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©»µÆ8¿Â¦ä±2J$274cd0b4-48bf-4a6a-b06c-77d48f5b90e7
+
+java:S1854"ERemove this useless assignment to local variable "maxTicketCapacity".(° é øÿÿÿÿ8ª‡´ä±2J$8fa54280-d1c8-4831-a6cb-813d4a937b31
+‹
+java:S1854"IRemove this useless assignment to local variable "customerRetrievalRate".(°•8šñ·ä±2J$d7edaef9-8ee1-410a-9b52-54706882fbc6
+ˆ
+java:S1854"ERemove this useless assignment to local variable "ticketReleaseRate".(ÅŒú8÷Ë»ä±2J$37603fe5-2de8-4b90-9acb-3ade0bbc4bdd
+ƒ
+java:S1854"@Remove this useless assignment to local variable "totalTickets".(®º÷8¨›¾ä±2J$e39d0c59-25a8-4954-90ba-e6561c99b519
+r	java:S106"+Replace this use of System.out by a logger.(ÖË¥«üÿÿÿÿ8†¢ä±2J$a5267ca4-1a9d-4da0-9f39-9b3e31bdc53b
+l	java:S106"+Replace this use of System.out by a logger.(ê¥o8‹¢ä±2J$61c22ab7-e037-4f90-a3a3-7b3e0ccea025
+t
+java:S1481"1Remove this unused "totalTickets" local variable.(®º÷8Ä¢ä±2J$c7a3a444-3737-4e93-8626-13285ee11bf7
+r	java:S106"+Replace this use of System.out by a logger.(ÖºÜşÿÿÿÿ8¹‡´ä±2J$17b56a78-1ba5-4317-8a33-1775792ae577
+y
+java:S1481"6Remove this unused "ticketReleaseRate" local variable.(ÅŒú8ÙÍ·ä±2J$519beb72-1bac-406e-8241-1d0c76b5181a
+r	java:S106"+Replace this use of System.out by a logger.(ŒÑÍúÿÿÿÿ8°ñ·ä±2J$f91fd17b-c091-4876-ae84-0fc34f7d2981
+|
+java:S1481":Remove this unused "customerRetrievalRate" local variable.(°•8¶Š»ä±2J$792663f6-ed3b-4d51-b7ab-d88b009ef5b3
+m	java:S106"+Replace this use of System.out by a logger.(“¥ƒ8‰Ì»ä±2J$7ac09821-a63a-4452-b95c-fcf814c0f891
+~
+java:S1481"6Remove this unused "maxTicketCapacity" local variable.(° é øÿÿÿÿ8÷Ô¾ä±2J$2db61a08-6a46-4a9f-8335-b89be6665707
+o
+java:S1172",Remove this unused method parameter "input".(©»µÆ8‚Ã¦ä±2J$85da4c03-f37d-4913-85f0-d37c6d19374b
