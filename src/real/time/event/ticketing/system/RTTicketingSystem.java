@@ -1,3 +1,4 @@
+package real.time.event.ticketing.system;
 import java.util.Scanner;
 
 public class RTTicketingSystem {
