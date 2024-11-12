@@ -8,9 +8,21 @@ public class TicketPool {
 
     public TicketPool(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
         this.totalTickets = totalTickets;
-        this.availableTickets = totalTickets; 
+        this.availableTickets = totalTickets; //Initially, all tickets are available.
         this.ticketReleaseRate = ticketReleaseRate;
         this.customerRetrievalRate = customerRetrievalRate;
         this.maxTicketCapacity = maxTicketCapacity;
+    }
+
+    public void addTickets(){}
+
+    public void removeTickets(){}
+
+    public int getTotalTickets() {
+        return totalTickets;
+    }
+
+    public int getAvailableTickets() {
+        return availableTickets;
     }
 }

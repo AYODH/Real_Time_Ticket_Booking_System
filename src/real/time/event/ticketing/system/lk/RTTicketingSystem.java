@@ -2,6 +2,7 @@ package real.time.event.ticketing.system.lk;
 import java.util.Scanner;
 
 public class RTTicketingSystem {
+    private static TicketPool ticketPool;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         configureSystem(input);

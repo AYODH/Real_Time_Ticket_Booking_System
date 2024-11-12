@@ -1,11 +1,11 @@
 
-s
-java:S1068"0Remove this unused "totalTickets" private field.(öÍ·²8ä¬ªæ±2J$deac42ed-2635-4437-aa65-0eb7217a532d
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šù›Í8ƒí™ö±2J$93aac33f-3abf-4e29-8339-2f0f2679c5af
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¹ÿÿÿÿÿ8„í™ö±2J$a79267fa-4e8c-480e-967a-e2136c6389e7
+}
+java:S1068"5Remove this unused "ticketReleaseRate" private field.(¼Â¯Æÿÿÿÿÿ8Ší™ö±2J$fe657028-542d-4f3b-a8eb-09dd86901cdf
 |
-java:S1068"4Remove this unused "availableTickets" private field.(Âûîôÿÿÿÿÿ8é¬ªæ±2J$8d963f8f-9e8a-4e0a-9a47-2e83a4661e6b
-W
-java:S1068"5Remove this unused "ticketReleaseRate" private field.(¼Â¯Æÿÿÿÿÿ8šˆ«æ±2
-|
-java:S1068"9Remove this unused "customerRetrievalRate" private field.(šò€8ê¬ªæ±2J$248991a0-e154-4c5b-b1fa-8be17ccebbf6
+java:S1068"9Remove this unused "customerRetrievalRate" private field.(šò€8Ší™ö±2J$f67c69e4-b11d-4a6c-b5b4-fb810b07d7f9
 x
-java:S1068"5Remove this unused "maxTicketCapacity" private field.(”õÓƒ8ì¬ªæ±2J$fb398669-9e82-432e-8b2e-d0e9b1ef3bc9
+java:S1068"5Remove this unused "maxTicketCapacity" private field.(”õÓƒ8‹í™ö±2J$85135d70-7026-4e36-a4dd-43ef200add8e
