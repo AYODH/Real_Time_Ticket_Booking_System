@@ -1,4 +1,3 @@
-package real.time.event.ticketing.system.lk;
 public class TicketPool {
     private int totalTickets;
     private int availableTickets;

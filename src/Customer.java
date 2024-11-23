@@ -1,4 +1,3 @@
-package real.time.event.ticketing.system.lk;
 public class Customer implements Runnable {
     private TicketPool ticketPool;
     private int ticketsToPurchase;

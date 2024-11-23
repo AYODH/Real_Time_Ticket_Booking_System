@@ -1,28 +1,12 @@
 
-Ã
-java:S1598"¦This file "RTTicketingSystem.java" should be located in "real\time\event\ticketing\system\lk" directory, not in "H:\IIT FORMS\2nd year\1st sem\OOP\Prog\CW_TEST1\src".(ë’üo8Ê©£å±2
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©»µÆ8ª£å±2
-g
-java:S1854"ERemove this useless assignment to local variable "maxTicketCapacity".(° é øÿÿÿÿ8»ª£å±2
-e
-java:S1854"IRemove this useless assignment to local variable "customerRetrievalRate".(°•8»ª£å±2
-b
-java:S1854"ERemove this useless assignment to local variable "ticketReleaseRate".(ÅŒú8»ª£å±2
-]
-java:S1854"@Remove this useless assignment to local variable "totalTickets".(®º÷8»ª£å±2
-L	java:S106"+Replace this use of System.out by a logger.(ÖË¥«üÿÿÿÿ8Âª£å±2
-F	java:S106"+Replace this use of System.out by a logger.(ê¥o8Ãª£å±2
-N
-java:S1481"1Remove this unused "totalTickets" local variable.(®º÷8Ô«£å±2
-L	java:S106"+Replace this use of System.out by a logger.(ÖºÜşÿÿÿÿ8Õ«£å±2
-S
-java:S1481"6Remove this unused "ticketReleaseRate" local variable.(ÅŒú8Ø«£å±2
-L	java:S106"+Replace this use of System.out by a logger.(ŒÑÍúÿÿÿÿ8Û«£å±2
 V
-java:S1481":Remove this unused "customerRetrievalRate" local variable.(°•8Ş«£å±2
-G	java:S106"+Replace this use of System.out by a logger.(“¥ƒ8Ş«£å±2
-X
-java:S1481"6Remove this unused "maxTicketCapacity" local variable.(° é øÿÿÿÿ8á«£å±2
-I
-java:S1172",Remove this unused method parameter "input".(©»µÆ8æ«£å±2
+java:S1220""Move this file to a named package.J$f7a49aaa-f181-46e8-b5c0-a662a7c38d8c
+‘
+java:S1450"URemove the "config" field and declare it as a local variable in the relevant methods.(À©íÄJ$ae231430-f8f7-48e4-9a95-59092014ddf7
+z
+java:S1854"9Remove this useless assignment to local variable "input".(Úî¿òøÿÿÿÿJ$b608fd0b-36ae-4f7b-a524-6fdedfc8f78b
+k
+java:S1481"*Remove this unused "input" local variable.(Úî¿òøÿÿÿÿJ$9d7c5ede-4611-4e56-8c60-c80f164deb15
+k	java:S106"+Replace this use of System.out by a logger.(¢Â‹³ÿÿÿÿÿJ$c94565db-4449-4543-9d39-8e824a6abf6a
+f
+java:S1068"*Remove this unused "config" private field.(À©íÄJ$ac37aac0-0e02-4f64-ac80-3b37f73a53f9

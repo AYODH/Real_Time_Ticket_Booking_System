@@ -1,5 +1,13 @@
 
-¼
-java:S1598"ŸThis file "TicketPool.java" should be located in "real\time\event\ticketing\system\lk" directory, not in "H:\IIT FORMS\2nd year\1st sem\OOP\Prog\CW_TEST1\src".(ë’üo8äæºå±2
-ƒ
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ê˜™æşÿÿÿÿJ$7b85904e-a897-4c7f-9175-478d79fe3cc2
+0
+java:S1220""Move this file to a named package.
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šù›Í
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¹ÿÿÿÿÿ
+P
+java:S1068"5Remove this unused "ticketReleaseRate" private field.(¼Â¯Æÿÿÿÿÿ
+O
+java:S1068"9Remove this unused "customerRetrievalRate" private field.(šò€
+K
+java:S1068"5Remove this unused "maxTicketCapacity" private field.(”õÓƒ
