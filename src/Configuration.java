@@ -7,65 +7,69 @@ public class Configuration {
     private int customerRetrievalRate;
     private int maxTicketCapacity;
 
-    public int getTotalTickets() {
-        return totalTickets;
+    public Configuration(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
+        this.totalTickets = totalTickets;
+        this.ticketReleaseRate = ticketReleaseRate;
+        this.customerRetrievalRate = customerRetrievalRate;
+        this.maxTicketCapacity = maxTicketCapacity;
     }
 
-    public void setTotalTickets(int totalTickets) {
-        this.totalTickets = totalTickets;
+    //Getters
+    public int getTotalTickets() {
+        return totalTickets;
     }
 
     public int getTicketReleaseRate() {
         return ticketReleaseRate;
     }
 
-    public void setTicketReleaseRate(int ticketReleaseRate) {
-        this.ticketReleaseRate = ticketReleaseRate;
-    }
-
     public int getCustomerRetrievalRate() {
         return customerRetrievalRate;
-    }
-
-    public void setCustomerRetrievalRate(int customerRetrievalRate) {
-        this.customerRetrievalRate = customerRetrievalRate;
     }
 
     public int getMaxTicketCapacity() {
         return maxTicketCapacity;
     }
 
-    public void setMaxTicketCapacity(int maxTicketCapacity) {
-        this.maxTicketCapacity = maxTicketCapacity;
+    @Override
+    public String toString() {
+        return "Configuration:-" +
+                "\nTotal Number of Tickets = " + totalTickets +
+                "\nTicket Release Rate = " + ticketReleaseRate +
+                "\nCustomer Retrieval Rate = " + customerRetrievalRate +
+                "\nMaximum Ticket Capacity = " + maxTicketCapacity;
     }
 
     //save the Configuration object to a file.
     public void saveConfiguration(String filename) {
-        try(BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
-            writer.write("totalTickets=" + totalTickets + "\n");
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+            writer.write("Total Number of Tickets = " + totalTickets + "\n");
             writer.newLine();
-            writer.write("ticketReleaseRate=" + ticketReleaseRate + "\n");
+            writer.write("Ticket Release Rate=" + ticketReleaseRate + "\n");
             writer.newLine();
-            writer.write("customerRetrievalRate=" + customerRetrievalRate + "\n");
+            writer.write("Customer Retrieval Rate=" + customerRetrievalRate + "\n");
             writer.newLine();
-            writer.write("maxTicketCapacity=" + maxTicketCapacity + "\n");
-            writer.newLine();
-        }catch(IOException e){
+            writer.write("Maximum Ticket Capacity=" + maxTicketCapacity + "\n");
+            System.out.println("Configuration saved successfully");
+        } catch (IOException e) {
             System.out.println("Error while saving configuration: " + e.getMessage());
         }
     }
 
     //load the Configuration object from a file.
     public static Configuration loadConfiguration(String filename) {
-        Configuration config = new Configuration();
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
-            config.setTotalTickets(Integer.parseInt(reader.readLine().split("=")[1]));
-            config.setTicketReleaseRate(Integer.parseInt(reader.readLine().split("=")[1]));
-            config.setCustomerRetrievalRate(Integer.parseInt(reader.readLine().split("=")[1]));
-            config.setMaxTicketCapacity(Integer.parseInt(reader.readLine().split("=")[1]));
-        }catch(IOException | NumberFormatException e){
+            int totalTickets = Integer.parseInt(reader.readLine());
+            int ticketReleaseRate = Integer.parseInt(reader.readLine());
+            int customerRetrievalRate = Integer.parseInt(reader.readLine());
+            int maxTicketCapacity = Integer.parseInt(reader.readLine());
+
+            System.out.println("Configuration loaded successfully");
+            return new Configuration(totalTickets, ticketReleaseRate, customerRetrievalRate, maxTicketCapacity);
+        } catch (IOException | NumberFormatException e) {
             System.out.println("Error while loading configuration: " + e.getMessage());
+            return null;
         }
-        return config;
     }
+
 }

@@ -1,12 +1,7 @@
 
-V
-java:S1220""Move this file to a named package.J$f7a49aaa-f181-46e8-b5c0-a662a7c38d8c
-‘
-java:S1450"URemove the "config" field and declare it as a local variable in the relevant methods.(À©íÄJ$ae231430-f8f7-48e4-9a95-59092014ddf7
-z
-java:S1854"9Remove this useless assignment to local variable "input".(Úî¿òøÿÿÿÿJ$b608fd0b-36ae-4f7b-a524-6fdedfc8f78b
-k
-java:S1481"*Remove this unused "input" local variable.(Úî¿òøÿÿÿÿJ$9d7c5ede-4611-4e56-8c60-c80f164deb15
-k	java:S106"+Replace this use of System.out by a logger.(¢Â‹³ÿÿÿÿÿJ$c94565db-4449-4543-9d39-8e824a6abf6a
-f
-java:S1068"*Remove this unused "config" private field.(À©íÄJ$ac37aac0-0e02-4f64-ac80-3b37f73a53f9
+]
+java:S1220""Move this file to a named package.8Ì‘º¼¶2J$3da8bd9d-66bf-418d-b70d-0b49b401e473
+r	java:S106"+Replace this use of System.out by a logger.(¢Â‹³ÿÿÿÿÿ8¿’º¼¶2J$78e72f64-89b6-4dd2-95e2-6a4cf2f7df86
+r	java:S106"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ8Ç’º¼¶2J$531f2996-3700-42d7-a25e-0166eb3fc0a8
+r	java:S106"+Replace this use of System.out by a logger.(ÛÏ¢£úÿÿÿÿ8Ë’º¼¶2J$f71f7381-9203-4a99-87c2-e2fa07d7d42a
+m	java:S106 "+Replace this use of System.out by a logger.(‚»Öª8Í’º¼¶2J$1b4b7e9f-68f7-454e-af02-2194250179c1

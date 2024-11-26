@@ -1,13 +1,6 @@
 
-0
-java:S1220""Move this file to a named package.
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šù›Í
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¹ÿÿÿÿÿ
-P
-java:S1068"5Remove this unused "ticketReleaseRate" private field.(¼Â¯Æÿÿÿÿÿ
-O
-java:S1068"9Remove this unused "customerRetrievalRate" private field.(šò€
-K
-java:S1068"5Remove this unused "maxTicketCapacity" private field.(”õÓƒ
+]
+java:S1220""Move this file to a named package.8ª»İ½¶2J$56f82e4d-6814-4a77-a2f0-87bd165a76c3
+r	java:S106"+Replace this use of System.out by a logger.(ää²Éşÿÿÿÿ8…½İ½¶2J$a8b4df6b-3069-4285-892c-e6140f530208
+m	java:S106"+Replace this use of System.out by a logger.(¼™ø8‰½İ½¶2J$147cb408-90d8-4d1b-b68e-c35176f96af9
+r	java:S106"+Replace this use of System.out by a logger.(¢Ğœ½şÿÿÿÿ8Š½İ½¶2J$ae2a2f7d-4dd6-4a79-adf6-2da6a655bb05

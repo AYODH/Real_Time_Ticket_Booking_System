@@ -1,13 +1,18 @@
 public class Customer implements Runnable {
     private TicketPool ticketPool;
-    private int ticketsToPurchase;
 
-    public Customer(TicketPool ticketPool, int ticketsToPurchase) {
+    public Customer(TicketPool ticketPool) {
         this.ticketPool = ticketPool;
-        this.ticketsToPurchase = ticketsToPurchase;
     }
 
     public void run() {
-
+        while (true) {
+            ticketPool.removeTickets();
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
     }
 }

@@ -1,24 +1,36 @@
-public class TicketPool {
-    private int totalTickets;
-    private int availableTickets;
-    private int ticketReleaseRate;
-    private int customerRetrievalRate;
-    private int maxTicketCapacity;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
-    public TicketPool(int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
-        this.totalTickets = totalTickets;
-        this.availableTickets = totalTickets; //Initially, all tickets are available.
-        this.ticketReleaseRate = ticketReleaseRate;
-        this.customerRetrievalRate = customerRetrievalRate;
-        this.maxTicketCapacity = maxTicketCapacity;
+public class TicketPool {
+    private int availableTickets;
+    private final Lock lock = new ReentrantLock();
+
+    public TicketPool(int initialTickets) {
+        this.availableTickets = initialTickets;
     }
 
-    public void addTickets(){}
+    public void addTickets(int tickets) {
+        lock.lock();
+        try {
+            availableTickets += tickets;
+            System.out.println(tickets + " tickets added. Total tickets: " + availableTickets);
+        } finally {
+            lock.unlock();
+        }
+    }
 
-    public void removeTickets(){}
-
-    public int getTotalTickets() {
-        return totalTickets;
+    public void removeTickets(){
+        lock.lock();
+        try {
+            if (availableTickets > 0) {
+                availableTickets--;
+                System.out.println("1 ticket purchased. Total tickets: " + availableTickets);
+            } else {
+                System.out.println("No tickets available for purchase.");
+            }
+        } finally {
+            lock.unlock();
+        }
     }
 
     public int getAvailableTickets() {
