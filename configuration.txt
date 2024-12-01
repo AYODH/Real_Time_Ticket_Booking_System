@@ -1,7 +1,7 @@
-Total Number of Tickets = 1000
+Total Number of Tickets = 10
 
-Ticket Release Rate=20
+Ticket Release Rate=2
 
-Customer Retrieval Rate=50
+Customer Retrieval Rate=1
 
-Maximum Ticket Capacity=2000
+Maximum Ticket Capacity=15
