@@ -1,0 +1,21 @@
+
+}
+java:S1854
+":Remove this useless assignment to local variable "config".(÷¿ô8¹œ¨è¹2J$9934afdc-5372-4992-8f12-8539467fdd74
+r	java:S106"+Replace this use of System.out by a logger.(«…ÿÿÿÿÿ8Àœ¨è¹2J$b5befe97-0b10-497d-b8ca-dfe1d54f2594
+m	java:S106"+Replace this use of System.out by a logger.(×¼ì8Èœ¨è¹2J$63ec2160-5f07-4a0d-a56e-94a2997f1356
+r	java:S106"+Replace this use of System.out by a logger.(«…ÿÿÿÿÿ8Ëœ¨è¹2J$b6e4ba84-533b-4df0-a248-9e617e6ad8d0
+m	java:S106"+Replace this use of System.out by a logger.(¥àşÓ8Îœ¨è¹2J$3a6796f0-6333-4d42-9faf-baf452763959
+r	java:S106!"+Replace this use of System.out by a logger.(¢ÊÎúÿÿÿÿ8Ğœ¨è¹2J$47af6438-b188-4e3a-8c95-58ba2641eee1
+¡
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Éœ¨è¹2J$e739d1d1-c1c9-4bb0-882f-83a7bc1afff7
+l	java:S106."+Replace this use of System.out by a logger.(·’ËR8Òœ¨è¹2J$0941a656-f995-42e6-81f7-29b113b4f005
+¦
+java:S1157/"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(Ùìº‡8Ìœ¨è¹2J$7d234369-c1f8-4035-bcda-e91256248cb8
+m	java:S1063"+Replace this use of System.out by a logger.(Üãïë8Ôœ¨è¹2J$28d8aa56-ef67-45aa-94e4-64269b312052
+m	java:S1068"+Replace this use of System.out by a logger.(ÃõøÒ8Õœ¨è¹2J$d7ff5eea-f7ef-4e30-a76d-736e93ecc407
+m	java:S106:"+Replace this use of System.out by a logger.(¬ø§‹8Øœ¨è¹2J$0911ac5a-0704-4597-bd04-59b8648da107
+r	java:S106<"+Replace this use of System.out by a logger.(õ¡ßÖüÿÿÿÿ8Ùœ¨è¹2J$cb679228-82b3-457e-9896-7b3fe5f7b6d3
+m	java:S106>"+Replace this use of System.out by a logger.(ÈÔµÓ8éİ¿è¹2J$cc1e6078-d220-4144-bfb6-4a76dfb948e1
+m	java:S106H"+Replace this use of System.out by a logger.(»‹˜¸8ìİ¿è¹2J$3c03b458-07bc-43c4-ac0f-97bbabeb6cb8
+r	java:S106J"+Replace this use of System.out by a logger.(ı×¾Èúÿÿÿÿ8ìİ¿è¹2J$dd1c4af9-caf9-4762-a028-79d466298f8b
