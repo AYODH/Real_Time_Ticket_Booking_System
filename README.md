@@ -24,7 +24,7 @@ A robust command-line interface application for managing ticket distribution, de
 ## 🏗️ System Architecture
 
 ### Sequence Diagram
-![Sequence Diagram](./SequenceDiagram.png)
+![Sequence Diagram](./OOP_CW-ClassDiagram.drawio.png)
 
 ### Class Diagram
 ![Class Diagram](./ClassDiagram.png)
@@ -92,7 +92,7 @@ A robust command-line interface application for managing ticket distribution, de
 
 ## 💬 Contact
 
-For inquiries, please contact [your.email@example.com](mailto:rochaniriligala@gmail.com).
+For inquiries, please contact [rochaniriligala@gmail.com](mailto:rochaniriligala@gmail.com).
 
 ---
 
