@@ -24,10 +24,10 @@ A robust command-line interface application for managing ticket distribution, de
 ## 🏗️ System Architecture
 
 ### Sequence Diagram
-![Sequence Diagram](./OOP_CW-ClassDiagram.drawio.png)
+![Sequence Diagram](./Diagrams/Sequence%20Diagram.png)
 
 ### Class Diagram
-![Class Diagram](./ClassDiagram.png)
+![Class Diagram](./Diagrams/Class%20Diagram.png)
 
 ---
 
