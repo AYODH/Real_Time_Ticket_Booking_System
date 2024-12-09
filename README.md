@@ -81,12 +81,21 @@ A robust command-line interface application for managing ticket distribution, de
 
 ---
 
+## 🛠️ Tech Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+
+---
+
 ## 📂 Project Structure
 
-- **backend/**: Spring Boot backend code.
-- **frontend/**: React frontend code.
-- **CLI/**: Command-line interface for ticket management.
-- **diagrams/**: Sequence and class diagrams.
+- **backend**: Spring Boot backend code.
+- **frontend**: React frontend code.
+- **CLI**: Command-line interface for ticket management.
+- **diagrams**: Sequence and class diagrams.
 
 ---
 
