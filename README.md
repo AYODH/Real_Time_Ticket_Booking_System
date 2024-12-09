@@ -1,4 +1,4 @@
-# Ticketing System CLI
+# Real Time Event Ticketing System 
 
 A robust command-line interface application for managing ticket distribution, designed for real-time processing and concurrency. This system handles tickets from multiple vendors and customers, ensuring smooth operation even under high load. Built using **Java**, with a **React** frontend and **Spring Boot** backend.
 
