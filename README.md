@@ -6,7 +6,7 @@ A robust command-line interface application for managing ticket distribution, de
 
 ## 🎥 Demo Video
 
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/uHkD3Gtw_wY))
+[![Watch the Demo](https://img.youtube.com/vi/uHkD3Gtw_wY/0.jpg)](([https://youtu.be/uHkD3Gtw_wY)](https://youtu.be/uHkD3Gtw_wY))
 
 > Click the image above to watch the demonstration of the Ticketing System CLI.
 
